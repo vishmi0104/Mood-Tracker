@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Material 3 Typography -->
+    <style name="TextAppearance.HabitMate.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">57sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">-0.25</item>
+        <item name="android:lineHeight">64sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">52sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">44sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">40sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">36sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">32sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">28sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">20sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">18sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">20sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">18sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">16sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">18sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">16sp</item>
+    </style>
+    
+    <style name="TextAppearance.HabitMate.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">16sp</item>
+    </style>
+    
+    <!-- Component Styles -->
+    <style name="Widget.HabitMate.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:textAppearance">@style/TextAppearance.HabitMate.LabelLarge</item>
+        <item name="android:textColor">@color/md_theme_light_onPrimary</item>
+        <item name="backgroundTint">@color/md_theme_light_primary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/TextAppearance.HabitMate.LabelLarge</item>
+        <item name="android:textColor">@color/md_theme_light_primary</item>
+        <item name="strokeColor">@color/md_theme_light_outline</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textAppearance">@style/TextAppearance.HabitMate.LabelLarge</item>
+        <item name="android:textColor">@color/md_theme_light_primary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/md_theme_light_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Card.Large" parent="Widget.HabitMate.Card">
+        <item name="cardElevation">4dp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Chip" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:textAppearance">@style/TextAppearance.HabitMate.LabelMedium</item>
+        <item name="chipBackgroundColor">@color/md_theme_light_secondaryContainer</item>
+        <item name="android:textColor">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="chipStrokeColor">@color/md_theme_light_outline</item>
+        <item name="chipCornerRadius">16dp</item>
+        <item name="android:minHeight">32dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Chip.Selected" parent="Widget.HabitMate.Chip">
+        <item name="chipBackgroundColor">@color/md_theme_light_primary</item>
+        <item name="android:textColor">@color/md_theme_light_onPrimary</item>
+    </style>
+    
+    <style name="Widget.HabitMate.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/md_theme_light_primary</item>
+        <item name="tint">@color/md_theme_light_onPrimary</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/md_theme_light_outline</item>
+        <item name="hintTextColor">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="android:textColorHint">@color/md_theme_light_onSurfaceVariant</item>
+    </style>
+    
+    <style name="Widget.HabitMate.TextInputLayout.Focused" parent="Widget.HabitMate.TextInputLayout">
+        <item name="boxStrokeColor">@color/md_theme_light_primary</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="itemTextColor">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="android:background">@color/md_theme_light_surface</item>
+        <item name="elevation">8dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.ProgressBar" parent="Widget.MaterialComponents.LinearProgressIndicator">
+        <item name="trackColor">@color/md_theme_light_surfaceVariant</item>
+        <item name="indicatorColor">@color/md_theme_light_primary</item>
+        <item name="trackCornerRadius">2dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="trackColor">@color/md_theme_light_surfaceVariant</item>
+        <item name="indicatorColor">@color/md_theme_light_primary</item>
+        <item name="trackThickness">4dp</item>
+        <item name="indicatorSize">48dp</item>
+    </style>
+    
+    <!-- Motion Styles -->
+    <style name="Motion.HabitMate.SharedAxis" parent="android:Animation">
+        <item name="android:duration">300</item>
+        <item name="android:interpolator">@android:anim/decelerate_interpolator</item>
+    </style>
+    
+    <style name="Motion.HabitMate.FadeThrough" parent="android:Animation">
+        <item name="android:duration">250</item>
+        <item name="android:interpolator">@android:anim/accelerate_decelerate_interpolator</item>
+    </style>
+    
+    <style name="Motion.HabitMate.ContainerTransform" parent="android:Animation">
+        <item name="android:duration">400</item>
+        <item name="android:interpolator">@android:anim/decelerate_interpolator</item>
+    </style>
+    
+    <!-- Custom Component Styles -->
+    <style name="Widget.HabitMate.HabitCard" parent="Widget.HabitMate.Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.MoodCard" parent="Widget.HabitMate.Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">1dp</item>
+    </style>
+    
+    <style name="Widget.HabitMate.AchievementBadge" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="chipBackgroundColor">@color/achievement_gold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.HabitMate.LabelMedium</item>
+    </style>
+    
+    <!-- Dark Theme Overrides -->
+    <style name="Widget.HabitMate.Button.Primary.Dark" parent="Widget.HabitMate.Button.Primary">
+        <item name="android:textColor">@color/md_theme_dark_onPrimary</item>
+        <item name="backgroundTint">@color/md_theme_dark_primary</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Button.Secondary.Dark" parent="Widget.HabitMate.Button.Secondary">
+        <item name="android:textColor">@color/md_theme_dark_primary</item>
+        <item name="strokeColor">@color/md_theme_dark_outline</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Card.Dark" parent="Widget.HabitMate.Card">
+        <item name="cardBackgroundColor">@color/md_theme_dark_surface</item>
+    </style>
+    
+    <style name="Widget.HabitMate.Chip.Dark" parent="Widget.HabitMate.Chip">
+        <item name="chipBackgroundColor">@color/md_theme_dark_secondaryContainer</item>
+        <item name="android:textColor">@color/md_theme_dark_onSecondaryContainer</item>
+        <item name="chipStrokeColor">@color/md_theme_dark_outline</item>
+    </style>
+    
+    <style name="Widget.HabitMate.TextInputLayout.Dark" parent="Widget.HabitMate.TextInputLayout">
+        <item name="boxStrokeColor">@color/md_theme_dark_outline</item>
+        <item name="hintTextColor">@color/md_theme_dark_onSurfaceVariant</item>
+        <item name="android:textColorHint">@color/md_theme_dark_onSurfaceVariant</item>
+    </style>
+    
+    <style name="Widget.HabitMate.TextInputLayout.Focused.Dark" parent="Widget.HabitMate.TextInputLayout.Dark">
+        <item name="boxStrokeColor">@color/md_theme_dark_primary</item>
+    </style>
+    
+    <style name="Widget.HabitMate.BottomNavigationView.Dark" parent="Widget.HabitMate.BottomNavigationView">
+        <item name="itemIconTint">@color/md_theme_dark_onSurfaceVariant</item>
+        <item name="itemTextColor">@color/md_theme_dark_onSurfaceVariant</item>
+        <item name="android:background">@color/md_theme_dark_surface</item>
+    </style>
+    
+    <style name="Widget.HabitMate.ProgressBar.Dark" parent="Widget.HabitMate.ProgressBar">
+        <item name="trackColor">@color/md_theme_dark_surfaceVariant</item>
+        <item name="indicatorColor">@color/md_theme_dark_primary</item>
+    </style>
+    
+    <style name="Widget.HabitMate.CircularProgressIndicator.Dark" parent="Widget.HabitMate.CircularProgressIndicator">
+        <item name="trackColor">@color/md_theme_dark_surfaceVariant</item>
+        <item name="indicatorColor">@color/md_theme_dark_primary</item>
+    </style>
+    
+    <!-- Modern Dialog Style -->
+    <style name="ModernDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+    
+</resources>
+

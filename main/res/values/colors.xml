@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Design System Colors -->
+    
+    <!-- Primary Colors -->
+    <color name="md_theme_light_primary">#EC7FA9</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#FFB8E0</color>
+    <color name="md_theme_light_onPrimaryContainer">#BE5985</color>
+    
+    <!-- Secondary Colors -->
+    <color name="md_theme_light_secondary">#6D94C5</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#E3F2FD</color>
+    <color name="md_theme_light_onSecondaryContainer">#2C5F8A</color>
+    
+    <!-- Tertiary Colors -->
+    <color name="md_theme_light_tertiary">#BE5985</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#FFB8E0</color>
+    <color name="md_theme_light_onTertiaryContainer">#8B0043</color>
+    
+    <!-- Error Colors -->
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    
+    <!-- Background Colors -->
+    <color name="md_theme_light_background">#FFF8FA</color>
+    <color name="md_theme_light_onBackground">#1C1B1F</color>
+    <color name="md_theme_light_surface">#FFF8FA</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+    <color name="md_theme_light_surfaceVariant">#F3DEE3</color>
+    <color name="md_theme_light_onSurfaceVariant">#514347</color>
+    
+    <!-- Outline Colors -->
+    <color name="md_theme_light_outline">#837379</color>
+    <color name="md_theme_light_outlineVariant">#D7C2C7</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#FFB8E0</color>
+    <color name="md_theme_dark_onPrimary">#BE5985</color>
+    <color name="md_theme_dark_primaryContainer">#EC7FA9</color>
+    <color name="md_theme_dark_onPrimaryContainer">#FFB8E0</color>
+    
+    <color name="md_theme_dark_secondary">#B3C7E8</color>
+    <color name="md_theme_dark_onSecondary">#2C5F8A</color>
+    <color name="md_theme_dark_secondaryContainer">#4A7BA8</color>
+    <color name="md_theme_dark_onSecondaryContainer">#E3F2FD</color>
+    
+    <color name="md_theme_dark_tertiary">#FFB8E0</color>
+    <color name="md_theme_dark_onTertiary">#8B0043</color>
+    <color name="md_theme_dark_tertiaryContainer">#BE5985</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFB8E0</color>
+    
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    
+    <color name="md_theme_dark_background">#1C1B1F</color>
+    <color name="md_theme_dark_onBackground">#E6E1E5</color>
+    <color name="md_theme_dark_surface">#1C1B1F</color>
+    <color name="md_theme_dark_onSurface">#E6E1E5</color>
+    <color name="md_theme_dark_surfaceVariant">#514347</color>
+    <color name="md_theme_dark_onSurfaceVariant">#D7C2C7</color>
+    
+    <color name="md_theme_dark_outline">#A08D93</color>
+    <color name="md_theme_dark_outlineVariant">#514347</color>
+    
+    <!-- Legacy Colors (for backward compatibility) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Custom Theme Colors -->
+    <color name="pink_primary">#EC7FA9</color>
+    <color name="pink_primary_dark">#BE5985</color>
+    <color name="pink_primary_light">#FFB8E0</color>
+    <color name="pink_secondary">#6D94C5</color>
+    <color name="pink_accent">#BE5985</color>
+    <color name="pink_light">#FFF0F5</color>
+    <color name="pink_ultra_light">#FFF8FA</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- Habit Status Colors -->
+    <color name="habit_completed">#4CAF50</color>
+    <color name="habit_pending">#FF9800</color>
+    <color name="habit_missed">#F44336</color>
+    
+    <!-- Mood Colors -->
+    <color name="mood_happy">#FFD700</color>
+    <color name="mood_neutral">#FFA500</color>
+    <color name="mood_sad">#87CEEB</color>
+    <color name="mood_angry">#F44336</color>
+    <color name="mood_excited">#FF69B4</color>
+    
+    <!-- Chart Colors -->
+    <color name="chart_pink_1">#EC7FA9</color>
+    <color name="chart_pink_2">#BE5985</color>
+    <color name="chart_pink_3">#FFB8E0</color>
+    <color name="chart_pink_4">#6D94C5</color>
+    <color name="chart_pink_5">#B3C7E8</color>
+    
+    <!-- Achievement Colors -->
+    <color name="achievement_gold">#FFD700</color>
+    <color name="achievement_silver">#C0C0C0</color>
+    <color name="achievement_bronze">#CD7F32</color>
+    <color name="achievement_platinum">#E5E4E2</color>
+    
+    <!-- Widget Colors -->
+    <color name="widget_background">#FFFFFF</color>
+    <color name="widget_text">#1C1B1F</color>
+    <color name="widget_accent">#EC7FA9</color>
+    
+    <!-- Missing colors referenced in layouts -->
+    <color name="background_light">@color/md_theme_light_background</color>
+    <color name="text_primary">@color/md_theme_light_onBackground</color>
+    <color name="text_secondary">@color/md_theme_light_onSurfaceVariant</color>
+</resources>
